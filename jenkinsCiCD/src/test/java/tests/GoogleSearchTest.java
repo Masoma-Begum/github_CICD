@@ -7,6 +7,8 @@ public class GoogleSearchTest {
     private static Browser browser;
     private Page page;
 
+
+    
     @BeforeClass
     public void setupClass() {
         playwright = Playwright.create();
@@ -80,3 +82,4 @@ public class GoogleSearchTest {
         playwright.close();
     }
 }
+
