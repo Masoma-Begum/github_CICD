@@ -1,5 +1,8 @@
 # github_CICD
-
+[It is uploaded repository that is why    github_CICD/.github/workflows
+/build.yml    for Original repository: jenkinsCICD/.github/workflows
+/build.yml
+]
 Does your app start locally?
 Examples:
 Spring Boot → ./gradlew bootRun (Run locally)
