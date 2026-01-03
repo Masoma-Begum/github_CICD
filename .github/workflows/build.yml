@@ -18,8 +18,8 @@ jobs:
       - name: Checkout application repo
         uses: actions/checkout@v4
         with:
-          repository: Masoma-Begum/my-app   # 🔴 CHANGE THIS this is application code repository
-          token: ${{ secrets.APP_REPO_TOKEN }}  # 🔴 CHANGE THIS this is application code in is private repository
+          repository: Masoma-Begum/RND_UI-Automation-Hybrid   # 🔴 CHANGE THIS this is application code repository
+          token: ${{ secrets.CICD_TESTING_UI_AUTOMATION }}  # 🔴 CHANGE THIS this is application code in is private repository
           path: app
 
       # Setup Java
